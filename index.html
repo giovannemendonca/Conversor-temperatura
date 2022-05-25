@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Temperaturas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <form>
+            <h2>Conversor de Temperatura ºC → ºF (Farenheit) ou ºK(Kelvin)</h2>
+
+            <label>Selecione a Unidade:</label>
+            <select onchange="mudarTexto()" name="" id="opcao">
+                <option value="1">Selecione a Unidade</option>
+                <option value="2">Farenheit</option>
+                <option value="3">Kelvin</option>
+            </select> <br><br>
+
+            <div>
+                <label for="temp">Temperatura: </label>
+                <input type="number" name="te   mp" id="temp">
+                <label for="">ºC</label> <br> <br>
+
+            </div>
+        </form>
+
+        <div>
+            <button id="botao" onclick="conversorTemperatura()">Converter</button>
+            <h1 id="exibe"></h1>
+        </div>
+
+    </fieldset>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

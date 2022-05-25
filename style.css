@@ -1,0 +1,10 @@
+fieldset{
+    width: 60%;
+    padding-bottom: 30px;
+    position: relative;
+    left: 20px;    
+}
+
+input{
+    width: 40px;
+}

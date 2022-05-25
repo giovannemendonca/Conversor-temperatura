@@ -21,7 +21,7 @@ function conversorTemperatura() {
 
 
     if (Temperatura === '') {
-        document.getElementById("exibe").innerHTML = "Favor, selecionar a temperatura a ser convertida no campo Selecione a Unidade";
+        document.getElementById("exibe").innerHTML = "Favor, informe a temperatura para conversão!";
     }
 
     else {
